@@ -1,4 +1,4 @@
-*body
+.body
 {
     display:block;
     padding:0;
@@ -7,130 +7,105 @@
     
 }
 
-.cuerpo {
-
-    display:flex;
-    flex-direction: column;
-    height: auto;
-
-}
-
-.cabezera {
+/*[class*="col-"] {
     
-    display:flex;
-    flex-direction: column;
+}*/
+  
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.house {
+    
     background-color: black;
     height: 420px;
     margin: 50px;
     
 }
 
-.cabeza {
+.room {
 
     display: flex;
     flex-direction: row;
-    background-color:darkslateblue;
+    justify-content: space-evenly;
     height: 150px;
     width: 90%;
     margin: auto;
     
-    
 }
 
-.oreja {
-    background-color: brown;
+.rectangle {
     height: 50px;
-    flex: 20%;
     margin-top: auto;
     margin-bottom: auto;
-    margin-right: 5%;
-    margin-left: 5%;
-    
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
-.nariz {
-    background-color: rgb(165, 42, 134);
-    height: 50px;
-    flex: 40%;
-    margin: auto;
-
-}
-
-.cuello {
-
-    display: flex;
-    background-color: rgb(207, 129, 56);
-    height: 150px;
-    width: 90%;
-    margin: auto;
-}
-
-.garganta {
-    background-color: rgb(147, 165, 42);
-    height: 50px;
-    flex: 90%;
-    margin: auto;
-    margin-right: 5%;
-    margin-left: 5%;
-    
-    
-}
-
-.mar {
-    display:flex;
-    flex-direction: row;
-    background-color: black;
-    height: 450px;
-    margin: 50px;
-}
-
-.tauro {
-    background-color: grey;
-    height: 80%;
-    width: 65%;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-right: 5%;
-    margin-left: 5%;
-}
-
-.superboca {
-
-    display:flex;
-    flex-direction: row;
-    height: 70%;
-    width: 100%;
-    margin-top: 0%;
-    margin-bottom: 0%;
-    margin-right: 0%;
-    margin-left: 0%;
-}
-
-.boca {
-
+.column {
     display:flex;
     flex-direction: column;
-    height: 100%;
-    width: 38%;
-    margin-top: 0%;
-    margin-bottom: 0%;
-    margin-right: 0%;
-    margin-left: 8%;
 }
 
-.mandibula {
-    height: 50px;
-    width: 100%;
+.row {
+    display:flex;
+    flex-direction: row;
+}
+
+.red {
+    background-color: brown;
+}
+.darkblue {
+    background-color:darkslateblue;
+}
+.orange {
+    background-color: rgb(207, 129, 56);
+}
+.lime {
+    background-color: rgb(147, 165, 42);
+}
+.grey{
+    background-color: grey;
+}
+.blue {
     background-color: rgb(52, 23, 216);
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
+}
+.lightblue{
+    background-color: rgb(23, 193, 216);
+}
+
+.wing {
+    
+    height: 80%;
+    width: 65%;
+    margin: auto;
+}
+
+.hallway {
+
+    height: 70%;
+    width: 100%;
+    
+}
+
+.side {
+    height: 100%;
+    width: 40%;
+    margin: auto;
+    
 }
 
 .aleta {
     height: 50px;
-    width: 84%;
-    background-color: rgb(23, 193, 216);
     margin-bottom: 150px;
     margin-left: auto;
     margin-right: auto;
