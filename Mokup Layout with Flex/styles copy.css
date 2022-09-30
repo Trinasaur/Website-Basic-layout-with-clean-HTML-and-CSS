@@ -1,0 +1,42 @@
+.body
+{
+    display:block;
+    max-width: 1200px;
+    
+}
+
+.house {
+    
+    background-color: black;
+    margin: 10px;
+    padding: 10px;
+    
+}
+
+.room {
+
+    justify-content: space-evenly;
+    margin: 10px;
+    padding: 10px;
+    
+}
+
+.rectangle {
+    height: 40px;
+    margin: 10px;
+    padding: 10px;
+    
+}
+
+.column {
+    display:flex;
+    flex-direction: column;
+}
+
+.row {
+    display:flex;
+    flex-direction: row;
+}
+
+
+
