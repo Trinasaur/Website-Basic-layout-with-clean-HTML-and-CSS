@@ -1,0 +1,30 @@
+.red {
+    background-color: brown;
+}
+.darkblue {
+    background-color:darkslateblue;
+}
+.orange {
+    background-color: rgb(207, 129, 56);
+}
+.lime {
+    background-color: rgb(147, 165, 42);
+}
+.grey{
+    background-color: grey;
+}
+.blue {
+    background-color: rgb(52, 23, 216);
+}
+.lightblue{
+    background-color: rgb(23, 193, 216);
+}
+.blue{
+    background-color: rgb(23, 100, 216);
+}
+.yellow {
+    background-color: rgb(212, 250, 0);
+}
+.lemon {
+    background-color: rgb(206, 194, 22);
+}
