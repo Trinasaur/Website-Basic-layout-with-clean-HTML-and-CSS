@@ -40,6 +40,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .column {
@@ -77,6 +78,53 @@ text:hover {
     background-color: rgba(0, 162, 255, 0.185);
     color: rgb(14, 44, 109);
     font-size: 150%;
+
+
+}
+
+@media (max-width: 770px) {/*TABLET*/
+
+  .responsive_big{
+
+      display:flex;
+      flex-direction: column;
+
+
+  }
+
+  #responsive_flex {
+      flex:2;
+  }
+
+  #responsive_logo {
+    height:"10px";
+  }
+
+  .responsive_background_tablet{
+    height: 700px;
+  }
+  
+}
+
+
+@media (max-width: 480px) {/*MOBILE*/
+
+  .responsive_small{
+
+      flex-direction: column;
+      
+  }
+
+
+}
+
+@media (max-width: 400px) {/*MINI*/
+
+
+  .responsive_background_mini{
+
+    height: 850px;
+  }
 
 
 }
