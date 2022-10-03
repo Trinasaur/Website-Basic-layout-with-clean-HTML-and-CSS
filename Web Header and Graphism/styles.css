@@ -16,12 +16,17 @@
   
 }
 
+.secction {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+
+  margin: 10px;
+}
+
 .container {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  width: 100%;
-
 }
 
 .objeto {
@@ -53,6 +58,18 @@
 
 .grey {
   color: grey;
+}
+
+.grey_background {
+  background-color: #cccccc;
+}
+
+.white_background {
+  background-color: #ffffff;
+}
+
+.margin_left {
+  margin-left: 10px;
 }
 
 .banish {
@@ -94,10 +111,6 @@ text:hover {
 
   #responsive_flex {
       flex:2;
-  }
-
-  #responsive_logo {
-    height:"10px";
   }
 
   .responsive_background_tablet{
