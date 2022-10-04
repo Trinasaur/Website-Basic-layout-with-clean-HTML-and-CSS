@@ -27,16 +27,6 @@
   }
 }
 
-/*@media (max-width: 630px) {
-  .responsive_widht {
-    width: 600px;
-  }
-
-  .responsive_widht2 {
-    width: 400px;
-  }
-}*/
-
 @media (max-width: 767px) {
   
   .responsive_medium {

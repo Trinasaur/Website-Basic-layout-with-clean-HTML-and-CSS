@@ -18,3 +18,17 @@
 .mister {
     animation: mist 0.5s ease-in;
 }
+
+@keyframes colorer {
+
+    0% {color: chocolate; font-size: 150%;}
+    25% {color: aqua;}
+    50% { color: brown;}
+    75% {color: blueviolet;}
+    100%{text-size: 100%;}
+    
+}
+
+.super-color{
+    animation: colorer 3s ease-in;
+}
