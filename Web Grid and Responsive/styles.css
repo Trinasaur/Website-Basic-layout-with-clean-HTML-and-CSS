@@ -2,12 +2,28 @@
   max-width: 1200px;
 }
 
-.header {
-  display: flex;
-  flex-direction: column;
-  height: 400px;
+main > * {
+  display:grid;
+  grid-gap: 10px;
+}
 
-  margin: 10px;
+header {grid-area: header;}
+aside {grid-area: aside;}
+section {grid-area: section;}
+footer {grid-area:footer;}
+
+main {
+  display: grid;
+  grid-gap:10px;
+  grid-template-areas: 
+  "header header header" 
+  "section section aside" 
+  "footer footer footer";
+}
+
+
+.header {
+  height: 400px;
 
   background-image: url("Images/header.jpg");
   background-color: #cccccc;
@@ -16,18 +32,13 @@
 }
 
 .secction {
-  display: flex;
-  flex-direction: row;
   margin: 10px;
   height: auto;
 }
 
 .container {
-  display: flex;
-  flex-direction: row;
   justify-content: space-evenly;
   width: 100%;
-  flex-wrap: wrap;
 }
 
 .objeto {
@@ -43,7 +54,6 @@
   width: 120px;
   margin: 10px;
   padding: 10px;
-  display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
@@ -52,16 +62,6 @@
 .center {
   align-items: center;
   justify-content: center;
-}
-
-.column {
-  display: flex;
-  flex-direction: column;
-}
-
-.row {
-  display: flex;
-  flex-direction: row;
 }
 
 .relative {
