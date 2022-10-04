@@ -1,0 +1,30 @@
+@media (max-width: 767px) {
+  .responsive_big {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #responsive_flex {
+    flex: 2;
+  }
+
+  .responsive_background_tablet {
+    height: 700px;
+  }
+}
+
+@media (max-width: 480px) {
+  .responsive_small {
+    flex-direction: column;
+  }
+
+  .responsive_background_mini {
+    height: 850px;
+  }
+}
+
+@media (max-width: 630px) {
+  .responsive_widht {
+    width: 600px;
+  }
+}
