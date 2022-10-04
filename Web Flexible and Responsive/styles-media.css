@@ -21,10 +21,31 @@
   .responsive_background_mini {
     height: 850px;
   }
+
+  .text_reactive_columns {
+    column-count: 1;
+  }
 }
 
-@media (max-width: 630px) {
+/*@media (max-width: 630px) {
   .responsive_widht {
     width: 600px;
   }
+
+  .responsive_widht2 {
+    width: 400px;
+  }
+}*/
+
+@media (max-width: 767px) {
+  
+  .responsive_medium {
+    flex-direction: column;
+  }
+
+  .margin_side_reactive {
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+  
 }
