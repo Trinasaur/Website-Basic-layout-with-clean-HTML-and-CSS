@@ -173,36 +173,3 @@ text:hover {
   color: rgb(14, 44, 109);
   font-size: 150%;
 }
-
-@media (max-width: 770px) {
-  /*TABLET*/
-
-  .responsive_big {
-    display: flex;
-    flex-direction: column;
-  }
-
-  #responsive_flex {
-    flex: 2;
-  }
-
-  .responsive_background_tablet {
-    height: 700px;
-  }
-}
-
-@media (max-width: 480px) {
-  /*MOBILE*/
-
-  .responsive_small {
-    flex-direction: column;
-  }
-}
-
-@media (max-width: 400px) {
-  /*MINI*/
-
-  .responsive_background_mini {
-    height: 850px;
-  }
-}
